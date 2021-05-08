@@ -4,7 +4,10 @@ go 1.13
 
 require (
 	github.com/aws/aws-sdk-go v1.38.40
+	github.com/golang/mock v1.4.4
 	github.com/submariner-io/admiral v0.9.0-rc0.0.20210506112321-7cecd38836bf
+	golang.org/x/oauth2 v0.0.0-20210427180440-81ed05c6b58c
+	google.golang.org/api v0.30.0
 	k8s.io/apimachinery v0.21.0
 	k8s.io/client-go v1.5.2
 )
